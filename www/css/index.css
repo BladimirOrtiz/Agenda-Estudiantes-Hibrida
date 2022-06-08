@@ -1,0 +1,117 @@
+body, html{
+    font-family: 'Grape Nuts', cursive;
+    margin: 0%;
+    height: 100%;
+    background: url('../img/fondo.webp') #134;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 450px 100%;
+    }
+    ::-webkit-input-placeholder{
+    text-align: center;
+    color: #ff5d2a;
+    }
+    ::-moz-placeholder{
+    text-align: center;
+    color: #ff5d2a;
+    }
+    :-moz-placeholder{
+    text-align: center;
+    color: #ff5d2a;
+    }
+    :-ms-input-placeholder{
+    text-align: center;
+    color: #ff5d2a;
+    }
+    section{
+    max-width: 400px;
+    height: 100%;
+    margin: auto;
+    }
+    .linea:hover{
+    background-color: orange;
+    }
+    .linea{
+    position: relative;
+    padding-left: 4px;
+    box-sizing: border-box;
+    font-size: 1.4em;
+    color: #c5431b;
+    }
+    .linea img{
+    position: absolute;
+    right: 4px;
+    top: 3px;
+    cursor: pointer;
+    }
+    #lista_de_estudiantes{
+    margin-top: 1% ;
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: calc(100% -122px);
+    width: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive;
+    padding: 6px;
+    background-color: rgba(255,255, 255,0.2);
+    }
+    #input_estudiante{
+    margin-top: 1%;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive ;
+    font-size: 1.4em;
+    border:1px solid gray ;
+    border-radius: 3px;
+    outline: none;
+    color: crimson;
+    }
+    #input_numerocontrol{
+    margin-top: 1%;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive ;
+    font-size: 1.4em;
+    border:1px solid gray ;
+    border-radius: 3px;
+    outline: none;
+    color: crimson;
+    }
+    #input_grupo{
+    margin-top: 1%;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive ;
+    font-size: 1.4em;
+    border:1px solid gray ;
+    border-radius: 3px;
+    outline: none;
+    color: crimson;
+    }
+    #input_carrera{
+    margin-top: 1%;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive ;
+    font-size: 1.4em;
+    border:1px solid gray ;
+    border-radius: 3px;
+    outline: none;
+    color: crimson;
+    }
+    button{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 1.7em;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 1% 0;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    }
